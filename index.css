@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+}
+
+.first-section {
+  display: flex;
+}
+
+.nav-item-list {
+  display: flex;
+  justify-content: space-around;
+}
