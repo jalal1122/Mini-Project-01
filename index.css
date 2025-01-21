@@ -1,12 +1,217 @@
-nav {
-  display: flex;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
 }
 
-.first-section {
+.mycl-center{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  font-size: 1.8vw;
 }
 
-.nav-item-list {
+nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.mycl-right{
+  display: flex;
+  gap: 3vw;
+}
+
+.mycl-social-icons-div{
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycl-social-icons-div :nth-child(1){
+  color: #3b5998;
+}
+
+.mycl-social-icons-div :nth-child(2){
+  color: #00acee;
+}
+
+.mycl-social-icons-div :nth-child(3){
+  color: #0077b5;
+}
+
+.mycl-social-icons-div :nth-child(4){
+  color: #c13584;
+}
+
+.mycl-right button{
+  border: none;
+  background-color: rgb(255 65 85);
+  padding: 1vw 2vw;
+  color: white;
+  font-weight: 700;
+}
+
+/* Hero Section */
+
+.hero-section{
+  margin-top: 5vw;
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  justify-content: end ;
+  align-items: center;
+}
+
+.mycl-hero-left{
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw
+}
+
+.mycl-hero-left h1{
+  font-size: 2.5vw;
+  color: #1C165C;
+  font-weight: 800;
+}
+
+.mycl-hero-left p{
+  font-size: 1.5vw;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div{
+  display: flex;
+    align-items: center;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+
+.mycl-hero-right img{
+  width: 40vw;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div .gs-btn{
+  border: none;
+  background-color: #660FF2;
+  padding: 1vw 2vw;
+  color: white;
+  font-weight: 700;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div .pb{
+  border: none;
+  border: 1px solid #FF4258;
+  border-radius: 50%;
+  padding: 1vw 1.5vw;
+  background-color: white;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div h6{
+  color: #FF4258;
+  font-weight: 700;
+}
+
+
+/* Section 1 */
+
+.mycl-section-1{
+  margin-top: 5vw;
+  width: 100vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycl-section-1-heading-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  margin-bottom: 5vw;
+}
+
+.mycl-section-1-heading-div h3{
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.mycl-section-1-heading-div h1{
+  color: #1C165C;
+  font-weight: 800;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.mycl-section-1-cards-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.mycl-card-section-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 2vw;
+  border-radius: 1vw;
+  width: 20vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mycl-card-section-1 h1{
+  color: #1C165C;
+  font-weight: 800;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.mycl-section-1-cards-div img{
+  width: 5vw;
+}
+
+.mycl-card-section-1 p{
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.mycl-card-section-1 h2{
+  color: #1C165C;
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.mycl-card-section-1-pink{
+  background-color: #FF4258;
+}
+
+.mycl-card-section-1-pink h1{
+  color: white;
+}
+
+.mycl-card-section-1-pink p{
+  color: white;
+} 
+
+.mycl-card-section-1-pink h2{
+  color: white;
+}
+
+.mycl-card-section-1-pink img{
+  filter: invert(1);
 }
