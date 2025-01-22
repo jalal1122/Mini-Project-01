@@ -8,6 +8,11 @@
   list-style: none;
 }
 
+a::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, span::selection, div::selection{
+  background: #ff4258;
+  color: white;
+}
+
 .mycl-center {
   display: flex;
   justify-content: center;
@@ -24,6 +29,21 @@ nav {
   margin-right: 2vw;
 }
 
+nav img:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s ease-in;
+}
+
+nav .mycl-nav-item:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s ease-in;
+  color: #ff4258;
+  font-weight: 700;
+}
+
+
 .mycl-right {
   display: flex;
   gap: 3vw;
@@ -36,20 +56,26 @@ nav {
   justify-content: center;
 }
 
-.mycl-social-icons-div :nth-child(1) {
+.mycl-social-icons-div :nth-child(1) :nth-child(1){
   color: #3b5998;
 }
 
-.mycl-social-icons-div :nth-child(2) {
+.mycl-social-icons-div :nth-child(2) :nth-child(1){
   color: #00acee;
 }
 
-.mycl-social-icons-div :nth-child(3) {
+.mycl-social-icons-div :nth-child(3) :nth-child(1){
   color: #0077b5;
 }
 
-.mycl-social-icons-div :nth-child(4) {
+.mycl-social-icons-div :nth-child(4) :nth-child(1){
   color: #c13584;
+}
+
+.mycl-social-icons-div a i:hover{
+  cursor: pointer;
+  scale: 1.1;
+  transition: all 0.3s ease-in;
 }
 
 .mycl-right button {
@@ -58,6 +84,15 @@ nav {
   padding: 1vw 2vw;
   color: white;
   font-weight: 700;
+}
+
+.mycl-right button:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.4s;
+  border: 2px solid #ff4258;
+  background-color: white;
+  color: #ff4258;
 }
 
 /* Hero Section */
@@ -98,6 +133,12 @@ nav {
   width: 40vw;
 }
 
+.mycl-hero-right img:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.3s ease-in;
+}
+
 .mycl-hero-left .mylc-hero-buttons-div .gs-btn {
   border: none;
   background-color: #660ff2;
@@ -106,12 +147,38 @@ nav {
   font-weight: 700;
 }
 
+.mycl-hero-left .mylc-hero-buttons-div .gs-btn:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.4s;
+  border: 2px solid #660ff2;
+  background-color: white;
+  color: #660ff2;
+}
+
 .mycl-hero-left .mylc-hero-buttons-div .pb {
   border: none;
   border: 1px solid #ff4258;
   border-radius: 50%;
   padding: 1vw 1.5vw;
   background-color: white;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div .pb i {
+  color: #ff4258;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div .pb:hover{
+  cursor: pointer;
+  scale: 0.9;
+  transition: all 0.4s;
+  border: 2px solid #ff4258;
+  background-color: #ff4258;
+  color: white;
+}
+
+.mycl-hero-left .mylc-hero-buttons-div .pb:hover i{
+  color: white;
 }
 
 .mycl-hero-left .mylc-hero-buttons-div h6 {
@@ -169,6 +236,30 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.mycl-card-section-1:hover {
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: #ff4258;
+  color: white;
+}
+
+.mycl-card-section-1:hover h1 { 
+  color: white;
+}
+
+.mycl-card-section-1:hover p {
+  color: white;
+}
+
+.mycl-card-section-1:hover h2 {
+  color: white;
+}
+
+.mycl-card-section-1:hover img {
+  filter: invert(1);
+}
+
 .mycl-card-section-1 h1 {
   color: #1c165c;
   font-weight: 800;
@@ -193,6 +284,29 @@ nav {
 
 .mycl-card-section-1-pink {
   background-color: #ff4258;
+}
+
+.mycl-card-section-1-pink:hover {
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: white;
+}
+
+.mycl-card-section-1-pink:hover h1 { 
+  color: #1c165c;
+}
+
+.mycl-card-section-1-pink:hover p {
+  color: black;
+}
+
+.mycl-card-section-1-pink:hover h2 {  
+  color: #1c165c;
+}
+
+.mycl-card-section-1-pink:hover img {
+  filter: invert(0);
 }
 
 .mycl-card-section-1-pink h1 {
@@ -223,6 +337,12 @@ nav {
 .mycl-section-2-left img {
   width: 40vw;
   border-radius: 10px;
+}
+
+.mycl-section-2-left img:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
 }
 
 .mycl-section-2-right {
@@ -256,6 +376,15 @@ nav {
   padding: 1vw 2vw;
   font-weight: 600;
   width: 50%;
+}
+
+.mycl-section-2-right button:hover {
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  border: 3px solid #660ff2;
+  background-color: white;
+  color: #660ff2;
 }
 
 /* Section 3 */
@@ -387,9 +516,19 @@ nav {
   width: 4vw;
   height: 4vw;
   display: flex;
+  font-size: 2vw;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+}
+
+.mycl-section-4-upper-right-less-than-div:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  border: 1px solid #ff4258;
+  background-color: #ff4258;
+  color: white;
 }
 
 .mycl-section-4-upper-right-greater-than-div{
@@ -398,10 +537,20 @@ nav {
   border: 1px solid #ff4258;
   width: 4vw;
   height: 4vw;
+  font-size: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+}
+
+.mycl-section-4-upper-right-greater-than-div:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  border: 1px solid #ff4258;
+  background-color: white;
+  color: #ff4258;
 }
 
 .mycl-section-4-bottom{
@@ -412,6 +561,12 @@ nav {
 .mycl-section-4-bottom img{
   width: 20vw;
   border-radius: 10px;
+}
+
+.mycl-section-4-bottom img:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
 }
 
 /* Section 5 */
@@ -453,6 +608,12 @@ nav {
   border-radius: 10px;
 }
 
+.mycl-section-5-right img:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+}
+
 .mycl-section-5-left .gsp{
   border: none;
   background-color: #660ff2;
@@ -460,6 +621,15 @@ nav {
   color: white;
   font-weight: 700;
   margin-top: 1vw;
+}
+
+.mycl-section-5-left .gsp:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: white;
+  color: #660ff2;
+  border: 3px solid #660ff2;
 }
 
 .mycl-section-5-left .hsn{
@@ -470,6 +640,22 @@ nav {
   font-weight: 700;
   margin-top: 1vw;
   background-color: white;
+}
+
+.mycl-section-5-left .hsn i{
+  color: #ff4258;
+}
+
+.mycl-section-5-left .hsn:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: #ff4258;
+  color: white;
+}
+
+.mycl-section-5-left .hsn:hover i{
+  color: white;
 }
 
 .mycl-section-5-buttons-div{
@@ -543,6 +729,14 @@ nav {
   margin-bottom: 1vw;
 }
 
+.mycl-section-6-cards-number:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: #ff4258;
+  color: white;
+}
+
 .mycl-section-6-bottom-card h4{
   font-weight: 700;
   font-size: 1.8vw;
@@ -568,6 +762,14 @@ nav {
   font-size: 1.5vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
+}
+
+.mycl-section-6-cards-number-pink:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  background-color: white;
+  color: #ff4258;
 }
 
 /* Section 7 */
@@ -635,6 +837,12 @@ nav {
   height: 25vw;
 }
 
+.mycl-section-7-bottom-card img:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+}
+
 .mycl-section-7-cr-div{
   display: flex;
   gap: 2vw;
@@ -682,10 +890,28 @@ footer{
   font-size: 1.5vw;
 }
 
+.mycl-footer-divs p:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  color: #ff4258;
+}
+
 .mycl-footer-social-icons{
   display: flex;
   gap: 1vw;
   font-size: 1.5vw;
+}
+
+.mycl-footer-social-div:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
+  border: 3px solid #ff4258;
+}
+
+.mycl-footer-social-div:hover i{
+  color: #ff4258;
 }
 
 .mycl-footer-social-div{
@@ -701,4 +927,10 @@ footer{
 .mycl-footer-divs img{
   width: 8vw;
   filter: invert(100%);
+}
+
+.mycl-footer-divs img:hover{
+  cursor: pointer;
+  scale: 0.95;
+  transition: all 0.3s ease-in;
 }
