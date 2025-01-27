@@ -934,3 +934,299 @@ footer{
   scale: 0.95;
   transition: all 0.3s ease-in;
 }
+
+/* Media Queries */
+
+@media screen and ((min-width: 768px) and (max-width: 1024px)) {
+  /* nav section media queries */
+  
+  .mycl-center {
+    font-size: 1.5vw;
+    gap: 1vw;
+  }
+
+  nav {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .mycl-right button {
+    padding: 1vw 2vw;
+    font-size: 1vw;
+  }
+
+  /* hero section media queries */
+
+  .mycl-hero-left h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-hero-left p {
+    font-size: 2vw;
+  }
+
+  .mylc-hero-buttons-div {
+    gap: 3vw;
+  }
+
+  .mylc-hero-buttons-div .gs-btn {
+    padding: 2vw 3vw;
+  }
+
+  .mylc-hero-buttons-div .pb {
+    padding: 2vw 3vw;
+  }
+
+  .mylc-hero-buttons-div h6 {
+    font-size: 2vw;
+  }
+
+  .mylc-hero-buttons-div h6 {
+    font-size: 2vw;
+  }
+
+  .mylc-hero-buttons-div h6 {
+    font-size: 2vw;
+  }
+
+  /* section 1 media queries */
+
+  .mycl-section-1-heading-div h3 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-1-heading-div h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-card-section-1 h1 {
+    font-size: 2vw;
+  }
+
+  .mycl-card-section-1 p {
+    font-size: 1.5vw;
+  }
+
+  .mycl-card-section-1 h2 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-1-cards-div img {
+    width: 6vw;
+  }
+
+  /* section 2 media queries */
+
+  .mycl-section-2-left img {
+    width: 45vw;
+  }
+
+  .mycl-section-2-right h6 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-2-right h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-2-right p {
+    font-size: 2vw;
+  }
+
+  .mycl-section-2-right button {
+    padding: 1vw 2vw;
+  }
+
+  /* section 3 media queries */
+
+  .mycl-section-3-left h6 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-3-left h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-3-left p {
+    font-size: 2vw;
+  }
+
+  .mycl-section-3-upper-feature h3 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-3-upper-feature p {
+    font-size: 1.5vw;
+  }
+
+  .mycl-section-3-bottom-feature h3 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-3-bottom-feature p {
+    font-size: 1.5vw;
+  }
+
+  .mycl-section-3-upper-feature img {
+    width: 6vw;
+  }
+
+  .mycl-section-3-bottom-feature img {  
+    width: 6vw;
+  }
+
+  /* section 4 media queries */
+
+  .mycl-section-4-left h6 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-4-left h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-4-bottom img {
+    width: 25vw;
+  }
+
+  .mycl-section-4-bottom img {
+    width: 25vw;
+  }
+
+  .mycl-section-4-bottom img {
+    width: 25vw;
+  }
+
+  .mycl-section-4-bottom img {
+    width: 25vw;
+  }
+
+  /* section 5 media queries */
+
+  .mycl-section-5-left h6 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-5-left h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-5-left p {
+    font-size: 2vw;
+  }
+
+  .mycl-section-5-right img {
+    width: 40vw;
+  }
+
+  .mycl-section-5-left .gsp {
+    padding: 1vw 1.5vw;
+  }
+
+  .mycl-section-5-left .hsn {
+    padding: 1vw 1.5vw;
+  }
+
+  .mycl-section-5-left .hsn i {
+    font-size: 2vw;
+  } 
+
+  .mycl-section-5-buttons-div {
+    gap: 2vw;
+  }
+
+  /* section 6 media queries */
+
+  .mycl-section-6-upper h6 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-6-upper h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-6-bottom img {
+    width: 10vw;
+  }
+
+  .mycl-section-6-bottom-card h4 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-6-bottom-card p {
+    font-size: 2vw;
+  }
+
+  .mycl-section-6-cards-number {
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+
+  .mycl-section-6-cards-number-pink {
+    width: 5vw;
+    height: 5vw;
+    font-size: 2vw;
+  }
+
+  /* section 7 media queries */
+
+  .mycl-section-7-upper h6 {
+    font-size: 2vw;
+  } 
+
+  .mycl-section-7-upper h1 {
+    font-size: 3vw;
+  }
+
+  .mycl-section-7-bottom-card h4 {
+    font-size: 2vw;
+  }
+
+  .mycl-section-7-bottom-card p {
+    font-size: 2vw;
+  }
+
+  .mycl-section-7-bottom-card img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .mycl-section-7-cr-2nd {
+    font-size: 2vw;
+  }
+
+  /* footer media queries */
+
+  footer {
+    gap: 2vw;
+  }
+
+  .mycl-footer-divs {
+    gap: 2vw;
+    width: 25vw;
+  }
+
+  .mycl-footer-divs h5 {
+    font-size: 2vw;
+  }
+
+  .mycl-footer-divs p {
+    font-size: 2vw;
+  }
+
+  .mycl-footer-social-icons {
+    gap: 2vw;
+    font-size: 2vw;
+  }
+
+  .mycl-footer-social-div {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .mycl-footer-divs img {
+    width: 10vw;
+  }
+
+}
