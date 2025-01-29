@@ -1,8 +1,7 @@
 ### 📜 **README for Mini Project 01**  
 
-#### 🏗 **Project Name:** Mini Project 01  
-#### 📅 **Completion Date:** *(Add the date if needed)*  
-#### 🚀 **Live Preview:** *(Add link if hosted online)*  
+#### 🏗 **Project Name:** Mini Project 01 
+#### 🚀 **Live Preview:** *[Data Analytics](https://mjdataanalytics.vercel.app/)*  
 #### 🏷 **Tech Stack:** HTML, CSS  
 
 ---
